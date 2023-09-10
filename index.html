@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>BMI CALCULATOR</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+       <div class="container">
+            <div class="header">
+                <h1>
+                    BMI CALCULATOR
+                </h1>
+            </div>
+            <div class="height">
+                <label for="" class="height-info">
+                    HEIGHT (CM)
+                </label>
+                <input type="number" id="height" placeholder="Enter Your Height">
+            </div>
+            <div class="weight">
+                <label for="" class="weight-info">
+                    WEIGHT (KG)
+                </label>
+                <input type="number" id="weight" placeholder="Enter Your Weight">
+            </div>
+            <div class="calcualte-bmi">
+                <button id="calculate-bmi">CALCULATE BMI </button>
+            </div>
+            <div class="result">
+                <p>
+                    Your Bmi Is <span id="bmi-value"></span> And You Are <span id="bmi-status"></span>
+                </p>
+            </div>
+       </div>
+        
+        <script src="script.js" async defer></script>
+    </body>
+</html>
